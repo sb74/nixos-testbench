@@ -46,5 +46,7 @@
   # Sudo
   security.sudo.wheelNeedsPassword = false;
 
+  nixpkgs.config.allowUnfree = true;
+
   system.stateVersion = "25.05";
 }
